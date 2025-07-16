@@ -1,25 +1,44 @@
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    
 }
 
 body {
 
-    background-color: rgba(43, 73, 240, 0.932);
-
+    background-color: rgb(44, 91, 243);
+    font-weight: 700;
+    font-size: 1;
 }
 
-main{
+header {
+    padding: 2rem;
+    background-color:rgba(241, 243, 115, 0.89);
+    
+}
+
+main {
+    padding : 2rem;
+    display: flex;
+    flex-direction: column;  
+    gap: 3rem;
+
+}
+section{
+    padding: 1rem;
     background-color: rgba(241, 243, 115, 0.89);
-    width: auto;
-    margin: auto;
-    padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.541);
 }
 
-img.lado{
-    float: right
+
+img.lado {
+    float: right;
+    width: 1rem;
 }
-img.lado{
-    float: right
+
+img.lado {
+    float: right;
+    width: 10rem; 
 }
